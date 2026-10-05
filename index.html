@@ -259,6 +259,116 @@
 @media print{.sidebar,.mobile-bar,.mobile-toc-drawer,.mobile-toc-overlay,.copy,.top,.settings,.prompt-search-wrap,.copy-status{display:none!important}.shell{display:block;padding:0}.chapter,.prompt-card{break-inside:avoid}.search-hidden{display:block!important}body{background:white}.hero{background:#fff;color:#153a2e}.hero h1 em,.hero p{color:#153a2e}}
 
 </style>
+
+<style>
+/* ===== 2026 Premium Readability Upgrade ===== */
+:root{
+  --forest:#0f654e;
+  --forest-dark:#073f33;
+  --mint:#e9f7f1;
+  --cream:#fffdf7;
+  --gold:#d9ad52;
+  --cyan:#2aaebd;
+  --ink:#142e28;
+  --muted:#60736d;
+  --line:#dbe9e3;
+  --soft:#f6faf8;
+  --shadow-soft:0 10px 30px rgba(12,74,58,.08);
+  --shadow-premium:0 20px 55px rgba(9,61,49,.13);
+}
+body{
+  font-size:18px;
+  line-height:1.78;
+  letter-spacing:-.012em;
+  background:
+    radial-gradient(circle at 12% 4%,rgba(47,174,189,.08),transparent 26%),
+    radial-gradient(circle at 93% 2%,rgba(217,173,82,.10),transparent 25%),
+    linear-gradient(180deg,#f5fbf8 0,#fffdf9 520px,#f7faf8 100%);
+}
+.shell{max-width:1560px;gap:42px;padding:34px 42px 110px}
+.sidebar{
+  border:1px solid rgba(15,101,78,.12);
+  border-radius:30px;
+  padding:24px;
+  box-shadow:var(--shadow-premium);
+}
+.brand{padding-bottom:20px}.brand-mark{width:56px;height:56px;border-radius:19px;font-size:26px}
+.brand strong{font-size:19px}.brand span{font-size:13.5px}
+.toc a{padding:12px 13px;border-radius:14px;font-size:15.5px}
+.toc a.active{box-shadow:inset 0 0 0 1px rgba(15,101,78,.12)}
+.hero{
+  border-radius:36px;
+  padding:66px 64px 58px;
+  background:
+    radial-gradient(circle at 89% 10%,rgba(255,255,255,.15),transparent 21%),
+    radial-gradient(circle at 78% 92%,rgba(255,220,139,.10),transparent 22%),
+    linear-gradient(135deg,#083f33 0%,#10634e 48%,#178371 100%);
+  border:1px solid rgba(255,255,255,.15);
+  box-shadow:0 26px 75px rgba(7,63,51,.24);
+}
+.hero h1{max-width:980px;margin:25px 0 18px;font-size:clamp(2.1rem,3.55vw,4rem);line-height:1.12;letter-spacing:-.055em}
+.hero h1 em{color:#ffe39a;font-size:.76em;line-height:1.33;margin-top:15px}
+.hero p{max-width:860px;font-size:clamp(1.05rem,1.45vw,1.3rem);line-height:1.7;color:#edfff8}
+.eyebrow{padding:9px 15px;font-size:14.5px;background:rgba(255,255,255,.12)}
+.hero-meta{gap:11px;margin-top:31px}.hero-meta span{padding:10px 14px;border:1px solid rgba(255,255,255,.11);background:rgba(255,255,255,.10)}
+.settings,.prompt-search-wrap{
+  border-radius:24px;
+  border:1px solid rgba(15,101,78,.12);
+  box-shadow:var(--shadow-soft);
+}
+.settings{padding:28px 30px}.settings h2,.prompt-search-head h2{letter-spacing:-.03em}
+.prompt-search-wrap{padding:24px 26px}
+.prompt-search-box input{font-size:17px;background:#fff;border-color:#d4e6df;box-shadow:inset 0 1px 0 rgba(15,101,78,.03)}
+.notice{
+  border-radius:22px;
+  padding:22px 24px;
+  background:linear-gradient(135deg,#fff9e8,#fffdf5);
+  border-color:#eed998;
+  box-shadow:0 10px 24px rgba(122,86,8,.06);
+}
+.notice strong{font-size:19px}.notice p{font-size:16.5px}
+.chapter{margin:64px 0}.chapter-head{margin-bottom:24px}.chapter-no{width:56px;flex-basis:56px;height:56px;border-radius:18px}
+.chapter h2{font-size:clamp(1.85rem,2.5vw,2.55rem);letter-spacing:-.045em}.chapter-intro{font-size:17px;color:#657970}
+.prompt-card{
+  border-radius:26px;
+  border:1px solid rgba(15,101,78,.12);
+  box-shadow:0 14px 38px rgba(24,76,63,.08);
+  margin:24px 0;
+  background:#fff;
+}
+.prompt-card:hover{box-shadow:0 18px 46px rgba(24,76,63,.11)}
+.card-top{padding:22px 24px;background:linear-gradient(90deg,#fff,#f3faf7);border-bottom-color:#e3eee9}
+.card-icon{width:48px;flex-basis:48px;height:48px;border-radius:16px;font-size:23px}
+.card-title h3{font-size:21.5px;letter-spacing:-.025em}.card-title span{font-size:13.5px}
+.prompt{padding:28px 29px;font-size:17.5px;line-height:1.82;color:#1e3931}
+.teacher-guide{padding:20px 24px;background:#f4faf7}.teacher-guide p{font-size:16.5px}
+.sample-example{padding:16px 18px;border-radius:15px}.sample-example pre{font-size:15.5px;line-height:1.72}
+.tip{margin:0 24px 24px;padding:15px 17px;font-size:16.5px}
+.basic{margin:0 24px 22px;padding:18px 20px}.basic p{font-size:16.5px}
+.check{padding:17px 19px;border-radius:16px}.source{padding:19px 20px;border-radius:17px}
+.event{padding:26px;border-radius:22px;box-shadow:0 8px 24px rgba(23,107,82,.05)}
+.event h3{font-size:22px}
+#instructor .instructor-card{border-radius:20px!important;box-shadow:var(--shadow-soft);border-color:#d9e3df!important}
+footer{padding:34px 36px;border-radius:28px;background:linear-gradient(135deg,#123f35,#0b322a);box-shadow:var(--shadow-soft)}
+.top{width:76px;height:76px;border-radius:24px;font-size:14px}
+::selection{background:#ccefe4;color:#073f33}
+
+@media(max-width:1050px){
+  .shell{padding:0 0 96px}.hero{padding:52px 34px 46px}.chapter{margin:54px 14px}.prompt-search-wrap,.settings,.notice,footer{margin-left:14px;margin-right:14px}
+}
+@media(max-width:780px){
+  body{font-size:16.5px;line-height:1.7}
+  .mobile-bar{min-height:64px;box-shadow:0 6px 18px rgba(12,74,58,.07)}
+  .mobile-bar:after{font-size:14.5px}
+  .hero{padding:42px 20px 38px}.hero h1{font-size:clamp(2rem,9vw,3rem);line-height:1.12}.hero p{font-size:1.03rem}
+  .settings{padding:21px 18px}.prompt-search-wrap{padding:18px}.notice{padding:18px}
+  .chapter{margin-top:48px;margin-bottom:48px}.chapter h2{font-size:clamp(1.55rem,6.6vw,2rem)}.chapter-intro{font-size:15.5px}
+  .card-top{padding:17px}.card-title h3{font-size:18.5px}.prompt{padding:21px 18px;font-size:16px;line-height:1.76}
+  .teacher-guide{padding:17px 18px}.teacher-guide p,.tip,.basic p{font-size:15.5px}
+  .tip,.basic{margin-left:17px;margin-right:17px}.top{width:64px;height:64px;border-radius:20px}
+}
+</style>
+
 </head>
 <body>
   <a class="skip" href="#main">본문 바로가기</a>
@@ -1906,5 +2016,27 @@ Absolutely avoid:
  search();
 })();
 
-</script></body>
+</script>
+<script>
+/* ===== Context-menu source-view deterrent ===== */
+(()=>{
+  document.addEventListener('contextmenu', (e)=>{
+    e.preventDefault();
+  }, {capture:true});
+
+  document.addEventListener('keydown', (e)=>{
+    const key=(e.key||'').toLowerCase();
+    const blocked =
+      (e.ctrlKey && key==='u') ||
+      (e.ctrlKey && e.shiftKey && ['i','j','c'].includes(key)) ||
+      key==='f12';
+    if(blocked){
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }, {capture:true});
+})();
+</script>
+
+</body>
 </html>
