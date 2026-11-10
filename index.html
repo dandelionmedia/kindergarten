@@ -460,6 +460,18 @@ footer{border-radius:22px!important;padding:27px!important}.top{width:53px!impor
 .design-chapter .card-title{flex:1 1 220px}
 .design-chapter .copy{white-space:normal}
 @media(max-width:600px){.design-chapter .card-top .copy{width:100%;margin-left:0}.design-chapter .prompt{font-size:15px;line-height:1.85}}
+</style><style>
+/* 프롬프트 설계 예시 체크 및 직접 편집 */
+.design-chapter .prompt[contenteditable]{cursor:text;outline-offset:-4px}
+.design-chapter .prompt[contenteditable]:focus-visible{outline:3px solid #3da7a0;background:#fafffc;border-radius:5px}
+.design-examples{padding:18px 24px 12px;background:#f5faf7;border-top:1px solid #daeae2}
+.design-examples .design-example-toggle{width:21px;height:21px;vertical-align:middle;accent-color:#0f654e;cursor:pointer}
+.design-examples label{display:inline;vertical-align:middle;margin-left:9px;color:#124a3c;font-weight:850;cursor:pointer;font-size:16px}
+.design-example-preview{margin-top:12px;border:1px solid #dcece5;border-radius:14px;background:white;padding:12px 15px}
+.design-example-preview strong{font-size:14px;color:#0d5e4c}
+.design-example-preview p{font-size:14px;line-height:1.55;margin:4px 0;color:#435e53;word-break:keep-all;overflow-wrap:anywhere}
+.design-helper{font-size:13px;color:#48685d;margin:9px 0 0;line-height:1.5}
+@media(max-width:600px){.design-examples{padding:16px}.design-examples label{font-size:15px}.design-example-preview p{font-size:13px}}
 </style></head>
 <body>
 <a class="skip" href="#main">본문 바로가기</a>
@@ -576,15 +588,15 @@ footer{border-radius:22px!important;padding:27px!important}.top{width:53px!impor
 [최종 검토] 실제 제공되지 않은 사실은 임의 작성하지 말고 [확인 필요]로 표시하며, 유아 개인정보를 포함하지 마세요.</pre><div class="teacher-guide"><strong>🏡 학부모 입력 가이드</strong><p>아이의 연령·관심 주제·가정에서 사용할 재료·원하는 결과를 적으세요. 예시 자동 완성 후 직접 수정하고 복사하세요.</p><div class="sample-example"><strong>💡 학부모 예시</strong><pre>자녀·인원: 만 4세 자녀 1명과 보호자 1명
 주제: 첫 실습: 좋은 프롬프트 입력하기
 재료·상황: 집 거실, 종이·색연필 등 집에 있는 재료
-결과물: 가정에서 보호자와 유아가 10~15분 동안 함께 실천할 수 있는 놀이 활동</pre></div></div></div></article></section><section aria-labelledby="designHeading" class="chapter design-chapter" id="chapter-design"><div class="chapter-head"><div class="chapter-no">0+</div><div><h2 id="designHeading">프롬프트 설계하기</h2><p class="chapter-intro">간단한 5줄 프롬프트로 교실과 가정에 필요한 AI 제작 요청을 설계하세요. 아래 빈칸을 직접 수정한 뒤 복사할 수 있습니다.</p></div></div><article class="prompt-card" id="chapter-design-item-1"><div class="card-top"><div class="card-icon">🏫</div><div class="card-title"><span>5줄 프롬프트 설계 · 바로 복사하기</span><h3>1. 남성유치원 교사용 프롬프트</h3></div><button class="copy" data-target="design-prompt-1" type="button">교사용 프롬프트 복사</button></div><pre class="prompt" id="design-prompt-1">너는 10년 경력의 유아교육 전문가이자 AI 콘텐츠 제작 전문가야.
+결과물: 가정에서 보호자와 유아가 10~15분 동안 함께 실천할 수 있는 놀이 활동</pre></div></div></div></article></section><section aria-labelledby="designHeading" class="chapter design-chapter" id="chapter-design"><div class="chapter-head"><div class="chapter-no">0+</div><div><h2 id="designHeading">프롬프트 설계하기</h2><p class="chapter-intro">간단한 5줄 프롬프트로 교실과 가정에 필요한 AI 제작 요청을 설계하세요. 아래 빈칸을 직접 수정한 뒤 복사할 수 있습니다.</p></div></div><article class="prompt-card" id="chapter-design-item-1"><div class="card-top"><div class="card-icon">🏫</div><div class="card-title"><span>5줄 프롬프트 설계 · 바로 복사하기</span><h3>1. 남성유치원 교사용 프롬프트</h3></div><button class="copy" data-target="design-prompt-1" type="button">교사용 프롬프트 복사</button></div><pre aria-label="교사용 프롬프트 직접 수정" aria-multiline="true" class="prompt" contenteditable="true" id="design-prompt-1" role="textbox">너는 10년 경력의 유아교육 전문가이자 AI 콘텐츠 제작 전문가야.
 나는 남성유치원 교사로서 [교육 주제]에 관한 [콘텐츠 종류]를 만들고 싶어.
 대상은 [유아 연령]이고, [교육 상황과 목적]에 활용할 거야.
 유아의 눈높이와 실제 유치원 교육 현장에 맞게 구성해 줘.
-프롬프트 기본 법칙을 적용해 5줄 이내로, AI에서 바로 사용할 수 있는 구체적인 제작 프롬프트를 작성해 줘.</pre><div class="teacher-guide"><strong>✏️ 입력 안내</strong><p>[교육 주제] · [콘텐츠 종류] · [유아 연령] · [교육 상황과 목적]을 실제 수업에 맞게 바꿔 주세요.</p></div></article><article class="prompt-card" id="chapter-design-item-2"><div class="card-top"><div class="card-icon">🏠</div><div class="card-title"><span>5줄 프롬프트 설계 · 바로 복사하기</span><h3>2. 남성유치원 학부모용 프롬프트</h3></div><button class="copy" data-target="design-prompt-2" type="button">학부모용 프롬프트 복사</button></div><pre class="prompt" id="design-prompt-2">너는 10년 경력의 유아 발달 전문가이자 부모교육 전문가야.
+프롬프트 기본 법칙을 적용해 5줄 이내로, AI에서 바로 사용할 수 있는 구체적인 제작 프롬프트를 작성해 줘.</pre><div class="design-examples"><input class="design-example-toggle" data-design-target="design-prompt-1" id="design-example-toggle-1" type="checkbox"/><label for="design-example-toggle-1">✓ 예시내용 넣어서 프롬프트 완성하기</label><div class="design-example-preview"><strong>입력되는 예시</strong><p>[교육 주제] → 건강한 손씻기</p><p>[콘텐츠 종류] → 유아용 4장 카드뉴스</p><p>[유아 연령] → 만 4세</p><p>[교육 상황과 목적] → 점심 식사 전 손씻기 습관을 익히는 학급 놀이 활동</p></div><p aria-live="polite" class="design-helper">체크하면 위 프롬프트의 [ ] 항목이 자동으로 채워집니다. 체크 해제 시 원래 양식으로 돌아갑니다.</p></div><div class="teacher-guide"><strong>✏️ 입력 안내</strong><p>[교육 주제] · [콘텐츠 종류] · [유아 연령] · [교육 상황과 목적]을 실제 수업에 맞게 바꿔 주세요.</p></div></article><article class="prompt-card" id="chapter-design-item-2"><div class="card-top"><div class="card-icon">🏠</div><div class="card-title"><span>5줄 프롬프트 설계 · 바로 복사하기</span><h3>2. 남성유치원 학부모용 프롬프트</h3></div><button class="copy" data-target="design-prompt-2" type="button">학부모용 프롬프트 복사</button></div><pre aria-label="학부모용 프롬프트 직접 수정" aria-multiline="true" class="prompt" contenteditable="true" id="design-prompt-2" role="textbox">너는 10년 경력의 유아 발달 전문가이자 부모교육 전문가야.
 나는 남성유치원에 다니는 [아이 나이] 아이의 학부모야.
 우리 아이가 [현재 상황이나 고민]을 겪고 있어서 [원하는 목표]를 이루고 싶어.
 가정에서 쉽게 활용할 수 있는 [콘텐츠 종류]를 만들려고 해.
-프롬프트 기본 법칙을 적용해 5줄 이내로, AI에서 바로 사용할 수 있는 구체적인 제작 프롬프트를 작성해 줘.</pre><div class="teacher-guide"><strong>✏️ 입력 안내</strong><p>[아이 나이] · [현재 상황이나 고민] · [원하는 목표] · [콘텐츠 종류]를 가정 상황에 맞게 바꿔 주세요.</p></div></article></section>
+프롬프트 기본 법칙을 적용해 5줄 이내로, AI에서 바로 사용할 수 있는 구체적인 제작 프롬프트를 작성해 줘.</pre><div class="design-examples"><input class="design-example-toggle" data-design-target="design-prompt-2" id="design-example-toggle-2" type="checkbox"/><label for="design-example-toggle-2">✓ 예시내용 넣어서 프롬프트 완성하기</label><div class="design-example-preview"><strong>입력되는 예시</strong><p>[아이 나이] → 만 5세</p><p>[현재 상황이나 고민] → 스마트폰 사용을 마친 뒤 다른 놀이로 전환하기 어려움</p><p>[원하는 목표] → 가족과 함께 즐겁게 스마트폰 사용 약속을 정하고 지키기</p><p>[콘텐츠 종류] → 집에서 할 수 있는 10분 놀이 활동과 그림 약속판</p></div><p aria-live="polite" class="design-helper">체크하면 위 프롬프트의 [ ] 항목이 자동으로 채워집니다. 체크 해제 시 원래 양식으로 돌아갑니다.</p></div><div class="teacher-guide"><strong>✏️ 입력 안내</strong><p>[아이 나이] · [현재 상황이나 고민] · [원하는 목표] · [콘텐츠 종류]를 가정 상황에 맞게 바꿔 주세요.</p></div></article></section>
 <section class="chapter" id="chapter-1"><div class="chapter-head"><div class="chapter-no">1</div><div><h2>문서 만들기</h2><p class="chapter-intro">기본 요청 → 실무 완성형 요청 → 교사 검토 순서로 진행합니다.</p></div></div><article class="prompt-card" id="chapter-1-item-1"><div class="card-top"><div class="card-icon">💌</div><div class="card-title"><span>복사해서 실습하기</span><h3>가정통신문 실무 완성형</h3></div><button class="copy" data-role-copy="1" data-target="prompt-1-0" type="button">한번에 복사</button></div><div aria-label="가정통신문 실무 완성형 사용자 구분" class="card-audience" role="tablist"><button aria-selected="true" class="audience-btn" data-switch="teacher" role="tab" type="button">🏫 유치원 교사용</button><button aria-selected="false" class="audience-btn" data-switch="parent" role="tab" type="button">🏡 학부모용</button></div><div class="role-panel teacher-panel" data-role="teacher"><div class="basic"><b>비교용 기본 프롬프트</b><button class="copy" data-target="prompt-1-0-basic" type="button">복사</button><p id="prompt-1-0-basic">5월 어린이날 행사 안내 가정통신문을 학부모가 이해하기 쉽게 써줘. 일시, 장소, 준비물을 포함해줘.</p></div><div class="worksheet" data-examples="만 4세 유아 18명␟가정통신문 실무 완성형␟유치원 가을 현장체험학습, 일정·장소·준비물은 기관에서 최종 확인␟A4 한 장의 검토 가능한 문서"><div class="worksheet-head"><strong>① 빈칸 직접 수정  →  ② 예시 자동 완성  →  ③ 프롬프트 복사</strong><button class="fill-example" type="button">예시내용 넣어서 프롬프트 완성하기</button></div><small>처음 4개의 [      ]는 필수 입력칸입니다. 예시 버튼을 누르면 자동 입력되며, 입력된 글을 직접 고칠 수 있습니다.</small></div><pre aria-label="교사용 프롬프트 직접 수정" class="prompt editable-prompt" contenteditable="true" data-audit="2026-11" id="prompt-1-0" spellcheck="false">[실습 전 꼭 입력할 내용 — 아래 [      ] 네 곳을 수정하세요]
 - 교육 대상 또는 반: [      ]
 - 이번 실습 주제: [      ]
@@ -6494,5 +6506,38 @@ Google Gemini의 「음악 만들기」 기능을 사용해서 [유치원명]의
   fill._resetTimer=setTimeout(()=>{fill.textContent='예시내용 넣어서 프롬프트 완성하기';},2600);
  });
 
-})();</script></body>
+})();</script><script>
+/* 설계 프롬프트: 체크 시 입력 예시 주입, 해제 시 양식 복원 */
+(()=>{
+ const exampleSets={
+  'design-prompt-1':{
+   '[교육 주제]':'건강한 손씻기',
+   '[콘텐츠 종류]':'유아용 4장 카드뉴스',
+   '[유아 연령]':'만 4세',
+   '[교육 상황과 목적]':'점심 식사 전 손씻기 습관을 익히는 학급 놀이 활동'
+  },
+  'design-prompt-2':{
+   '[아이 나이]':'만 5세',
+   '[현재 상황이나 고민]':'스마트폰 사용을 마친 뒤 다른 놀이로 전환하기 어려움',
+   '[원하는 목표]':'가족과 함께 즐겁게 스마트폰 사용 약속을 정하고 지키기',
+   '[콘텐츠 종류]':'집에서 할 수 있는 10분 놀이 활동과 그림 약속판'
+  }
+ };
+ const originals={};
+ for(const cb of document.querySelectorAll('.design-example-toggle')){
+  const id=cb.dataset.designTarget,pre=document.getElementById(id);
+  if(!pre||!exampleSets[id])continue;
+  originals[id]=pre.textContent;
+  cb.addEventListener('change',()=>{
+   if(cb.checked){
+    let result=originals[id];
+    for(const [from,to] of Object.entries(exampleSets[id]))result=result.split(from).join(to);
+    pre.textContent=result;
+   }else pre.textContent=originals[id];
+   const msg=cb.closest('.design-examples').querySelector('.design-helper');
+   if(msg)msg.textContent=cb.checked?'예시가 자동 입력되었습니다. 위 프롬프트를 직접 수정한 후 복사해 사용하세요.':'기본 입력 양식으로 복원되었습니다.';
+  });
+ }
+})();
+</script></body>
 </html>
